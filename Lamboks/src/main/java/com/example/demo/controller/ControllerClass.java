@@ -12,7 +12,7 @@ public class ControllerClass {
 
 	@GetMapping("/hello")
 	public String method() {
-		return "hello-world";
+		return "hello-world-hello";
 	}
 	ArrayList<ModelClass> al=new ArrayList<>();
 	
